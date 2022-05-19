@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch",
+    "test": "jest",
     "docker": "docker build . -t nextstudy",
     "docker:run": "docker run -p 3000:3000 nextstudy"
   },
